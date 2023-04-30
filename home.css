@@ -1,4 +1,16 @@
 body{
+    background-color: white;
+    color: black;
+
+}
+
+.mydark{
+    background-color: black;
+    color: white;
+
+}
+
+body{
     margin: 0px;
     background-color: #e19cc3; 
  }

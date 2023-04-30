@@ -7,6 +7,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+        <script>
+            function changeMode(){
+                let mybody= document.body;
+                mybody.classList.toggle('mydark');
+                    
+            }
+        </script>
         
         
     </head>
@@ -16,6 +24,12 @@
                 Ready 2 Go
             </div>
             <div id="social">
+
+                <a href="">
+                    <img src="Ready_2_Go/image/Light_Dark.png" alt="Light_Dark" class="Logo"/>  
+                </a>
+                <button onclick="changeMode()">Change Mode</button>
+                
                 <a href="">
                     <img src="Ready_2_Go/image/search.png" alt="search" class="Logo"/>
                    
